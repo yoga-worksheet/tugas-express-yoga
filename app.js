@@ -15,4 +15,4 @@ app.use(index);
 app.use(user);
 app.use(cart);
 
-app.listen(port, () => console.log(`Server running on http://localhost:${port}`))
+app.listen(process.env.PORT || port, () => console.log(`Server running on http://localhost:${port}`))
