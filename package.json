@@ -1,0 +1,15 @@
+{
+  "name": "tugas-express-yoga",
+  "version": "1.0.0",
+  "description": "Tugas Express JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Yoga Pratama",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
