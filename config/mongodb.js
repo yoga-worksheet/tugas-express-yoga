@@ -1,8 +1,6 @@
 const { MongoClient } = require("mongodb");
 require("dotenv").config();
-
-const uri = `mongodb://${process.env.DB_USER}:${process.env.DB_PASSWORD}@${process.env.DB_HOST}:${process.env.DB_PORT}?authSource=admin`;
-const client = new MongoClient(uri);
+const client = new MongoClient(process.env.MONGO_URI);
 
 (async () => {
     try {
